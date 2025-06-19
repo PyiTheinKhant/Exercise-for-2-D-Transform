@@ -1,0 +1,54 @@
+.first-div {
+    border: 0.1px solid black;
+    width: 500px;
+    height: 300px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 300px;
+    margin: 200px auto;
+    font-weight: bold;
+    color: rgb(255, 12, 122);
+    border-radius: 30px;
+
+   
+}
+
+.first-div:hover {
+    color:blue;
+    border-radius: 30px;
+    text-shadow: 30px 30px 1px green, 
+                -30px -30px 1px red;
+    box-shadow: 10px 10px 15px black,
+                 -10px -10px 15px black;
+    transition: 0.5s;
+}
+
+/* ------------------------------------------ */
+
+.second-div, .third-div {
+    width: 300px;
+    height: 200px;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    text-align: center;
+    line-height: 200px;
+    margin: 10px 30px;
+}
+
+.second-div {
+    color: black;
+    font-size: 60px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+
+    /* Transform-Rotate */
+}
+
+.third-div {
+    color: black;
+    font-size: 60px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+
+    /* Transform-Translate */
+    transform: translate(500px, -200px);
+
+}
