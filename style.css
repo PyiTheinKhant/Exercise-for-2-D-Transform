@@ -80,4 +80,16 @@ h1 {
     color: black;
     font-size: 60px;
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    /* ///////// Transition \\\\\\ */
+    transition-property: all;
+    transition-duration: 3s;
+    /* transition-timing-function: ease; */
+    /* transition-delay: 1s; */
+    
+}
+
+.six-div:hover {
+    transform: rotate(360deg);
+    /* width: 200px; */
+    /* height: 100px; */
 }
