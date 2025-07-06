@@ -1,44 +1,55 @@
 * {
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
-.header {
-    background-color:rgb(69, 62, 62) ;
-    padding-top: 10px;
-}
-section {
-    background-color: rgb(159, 43, 43);
-    width: 90%;
-    margin:  auto;
-    display: flex;
-    /* border: 2px solid white; */
-    /* border-radius: 20px; */
+.main-container {
+    background-color: rgb(75, 68, 70);
+    padding-top: 50px;
 }
 
-.content {
-    max-width: 50%;
-    color: white;
+#header {
+    /* border: 2px solid red; */
+}
+
+#header .container {
+    max-width: 900px;
     margin: auto;
+    border: 5px solid white;
+    display: flex;
+    align-items: center;
+    background-color: #333e67;
+    border-radius: 10px;
+}
+
+#header .container .content {
+    flex-basis: 60%;
     text-align: center;
-    margin: 12px solid rgb(85, 11, 214);
+    line-height: 25px;
+    color: white;
+    padding: 0px 10px 0px 10px;
 }
 
-.content h1, .content h3, .content p {
-    margin: 100px;
-    
+#header .container .content h4 {
+    letter-spacing: 5px;
 }
 
-.content-img {
-    max-width:40%;
+#header .container .content h1, 
+#header .container .content h4, 
+#header .container .content p {
+    margin-bottom: 20px;
 }
 
-.content-img img {
-    width: 400px;
-    /* height: 400px; */
-    object-fit: fill;
-    padding: 10px;
-    border-radius: 20px;
+#header .container .image-div {
+    flex-basis: 40%;
 }
 
+#header .container .image-div img {
+    width: 100%;
+}
+
+.social-icons a {
+    margin: 15px;
+    font-size: 30px;
+}
