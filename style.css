@@ -9,15 +9,24 @@
     padding-top: 50px;
 }
 
+.container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+}
+
+.section-title {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
 #header {
     /* border: 2px solid red; */
 }
 
 #header .container {
-    max-width: 900px;
-    margin: auto;
-    border: 5px solid white;
-    display: flex;
+    border: 3px solid white;
     align-items: center;
     background-color: #333e67;
     border-radius: 10px;
@@ -52,4 +61,32 @@
 .social-icons a {
     margin: 15px;
     font-size: 30px;
+}
+
+/* About Me Css */
+#aboutme {
+    margin-top: 50px;
+}
+
+#aboutme .container {
+    align-items: center;
+}
+
+#aboutme .content h2{
+    line-height: 40px;
+}
+
+#aboutme .container > div {
+    /* border: 3px solid orange; */
+    color: white;
+    flex-basis: 50%;
+}
+
+
+#aboutme .img-div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
 }
