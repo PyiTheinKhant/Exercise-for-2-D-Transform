@@ -65,7 +65,7 @@
 
 /* About Me Css */
 #aboutme {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 #aboutme .container {
@@ -73,7 +73,7 @@
 }
 
 #aboutme .content h2{
-    line-height: 40px;
+    line-height: 50px;
 }
 
 #aboutme .container > div {
@@ -89,4 +89,84 @@
     border-radius: 50%;
     display: block;
     margin: auto;
+}
+
+/* My Skills Css */
+#myskills {
+    margin-top: 50px;
+}
+
+#myskills .container {
+    align-items: center;
+}
+
+#myskills .container > div {
+    /* border: 3px solid red; */
+    flex-basis:  50%;
+}
+
+#myskills .content .title-2,
+#myskills .content .title-3  {
+    margin-top: 30px;
+}
+
+#myskills .content .title-1,
+#myskills .content .title-2,
+#myskills .content .title-3 {
+    color: white;
+}
+
+
+
+#myskills .content ul {
+    list-style-type: none;
+}
+
+#myskills .content ul li {
+    /* border: 2px solid green ; */
+    display: inline-block;
+    background-color: white;
+    padding: 10px 13px;
+    margin: 5px 5px 5px 0px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#myskills .img-div {
+    /* padding: 50px 20px; */
+}
+
+#myskills .img-div  img {
+    width: 350px;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+/* My Works Css */
+#myworks {
+    margin-top: 50px;
+}
+
+#myworks .container {
+    justify-content: space-between;
+    /* border: 2px solid green; */
+}
+
+#myworks .container .card {
+    /* border: 2px solid black; */
+    flex-basis: 30%;
+    background-color: #333e67;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#myworks .card h3 {
+    margin: 20px 0px;
+}
+
+#myworks .card i {
+    font-size: 30px;
 }
