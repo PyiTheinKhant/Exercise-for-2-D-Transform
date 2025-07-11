@@ -2,13 +2,18 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    scroll-behavior:smooth;
+
+    /* For Fontstyle */
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+     /* font-weight: 0; */
+     font-style: normal;
+    font-variation-settings:
+     "wdth" 100;
 }
 
-.main-container {
-    background-color: rgb(75, 68, 70);
-    padding-top: 50px;
-}
-
+/* Common */
 .container {
     max-width: 900px;
     margin: auto;
@@ -21,8 +26,19 @@
     margin-bottom: 30px;
 }
 
+.card {
+    /* box-shadow: 3px 3px; */
+    border: 3px solid white;
+}
+
 #aboutme, #myskills, #myworks, #contactme, #footer {
     margin-top: 60px;
+}
+/* End of Common */
+
+.main-container {
+    background-color: rgb(75, 68, 70);
+    padding-top: 50px;
 }
 
 #header {
@@ -85,8 +101,8 @@
 
 
 #aboutme .img-div img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     display: block;
     margin: auto;
@@ -206,6 +222,9 @@
 #contactme .form button {
     padding: 5px 30px;
     float: right;
+    background-color:  #e9150a;
+    color: #fff;
+
 }
 
 /* Footer Css */
